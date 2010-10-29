@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>Go to <%= @target %></title>
+    <script src="file://<%= asset_path("jquery-1.4.3.min.js", true) %>" type="text/javascript"></script>
+    <script>
+    <!--
+    var bundle_support = "<%= Constants::SUPPORT_PATH %>";
+    var ruby_path = "<%= Constants::RUBY_PATH %>";
+    var target = "<%= @target %>";
+    -->
+    </script>
+    <script src="file://<%= asset_path("application.js", true) %>" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="file://<%= asset_path("style.css", true) %>" />
+  </head>
+  <body id="opener">    
+  	<div id="head">
+  		<input accesskey="f" tabindex="0" id="search" type="search" incremental
+  		  autosave="TMFFFSearch" results="20" size="25" placeholder="look for files" />
+  	</div>
+  	<div id="body">
+  	  <div id="search-value"></div>
+  	  <div id="files"><%= @files_partial %></div>
+	  </div>
+	  <div id="footer">&copy; 2010, Dima Lunich</div>
+  </body>
+</html>

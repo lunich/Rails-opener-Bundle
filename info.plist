@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Rails opener</string>
+	<key>ordering</key>
+	<array>
+		<string>019B8EA1-0F75-42EC-935B-D20DC0A3A091</string>
+		<string>CA55310B-7009-497E-98DC-3E5D65FB5F65</string>
+		<string>3467BFBD-6BD7-4C91-A28D-4652CCADACAA</string>
+		<string>994F9B1B-500F-4B4F-8222-80F812FE89BF</string>
+		<string>F3B7B7B2-8956-4FF5-98AE-BF7006E4004E</string>
+		<string>EEC0F4B0-98C4-4470-A3D6-2500A6317B48</string>
+		<string>BFAAD369-1D60-4E23-BABF-21CC9C31CE37</string>
+		<string>0A4318AA-B429-4D89-BCA5-FD72F197EF53</string>
+		<string>220A7376-9D2C-43E9-970B-76B272784033</string>
+	</array>
+	<key>uuid</key>
+	<string>DFBBB5AE-7983-4D37-A492-CDB7D0E028D0</string>
+</dict>
+</plist>

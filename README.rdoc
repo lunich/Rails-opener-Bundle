@@ -1,0 +1,3 @@
+== Rails opener bundle
+
+This bundle works like a standard 'Go to File...' but separates rails specific directories.

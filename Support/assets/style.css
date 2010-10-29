@@ -1,0 +1,66 @@
+/* Window Styling */
+html, body
+{ 
+	margin: 0; 
+	padding: 0; 
+	font-family: "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 9pt;
+	color: #707070;
+}
+
+#head
+{
+	background-color: #666;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABQCAYAAADvCdDvAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAOhJREFUeNrs3UuKAkEURUELyi+KioXoWt27qYtwcMA40Bu4wUsoJz2NMV4rZZq/f2sztEDeZmiBDDMAERAgAgJEQIDIh6ELkQuRCwEiT5YLkQsBIk+WC5ELkQsBIk+WCxEQT5ZcCBABERAgAgJEvkNciIAAERABASIgQAQEiID8H4jfslyIgAARECACAkS+Q1yIgMiT5UIExJOlnzaNMZ5maIE8zNACuZuhBbKYoQVyM0ML5GqGFsjFDC2QsxlaICcztECOZmiBHMzQAtmboQWyM0MLZGuGFsjGDC0Q/5w4BjKbodNHgAEA3LJ02F62uMsAAAAASUVORK5CYII=);
+	border-bottom: 1px solid #666;
+	height: 40px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+}
+
+#head input#search
+{
+	margin: 11px 5% 0 5%;
+	width: 90%;
+	-webkit-appearance: searchfield;
+}
+
+#body
+{
+  top: 40px;
+  height: 20px;
+	position: fixed;
+}
+
+#body #files {
+  position: fixed;
+  top: 40px;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+#body #files .file {
+  padding: 2pt 3pt 2pt 3pt;
+  /*border-bottom: 1px solid #808080;*/
+  cursor: default;
+	z-index: 100;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  padding: 2pt 3pt 2pt 3pt;
+  height: 12pt;
+  width: 100%;
+  background-color: #808080;
+  color: #FFFFFF;
+}
+
+.first {
+  /*border-top: 1px solid #808080;*/
+}
+
+.selected {
+  background-color: #d4d4d4;
+}

@@ -1,0 +1,6 @@
+<% @files.each_with_index do |f, i| %>
+  <div id="file-<%= i %>" class="file<%= i.zero? ? " first selected" : "" %><%= @files.size-1 == i ? " last" : "" %>">
+    <input type="hidden" value="<%= f.last %>" />
+    <%= f.first %>
+  </div>
+<% end %>
