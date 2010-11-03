@@ -35,7 +35,7 @@ protected
     
     ENTITIES_AND_TESTS = ENTITIES +
       ENTITIES.map { |e| "#{e}-test"} +
-      ["lib"]
+      ["lib", "migration"]
   
     COMMANDS = ENTITIES_AND_TESTS.map { |e| "find-#{e}" } +
       ENTITIES_AND_TESTS.map { |e| "open-#{e}" } +
@@ -55,6 +55,7 @@ protected
       "view-test"       => "spec/views",
       "helper-test"     => "spec/helpers",
       "lib"             => "lib",
+      "migration"       => "db/migrate",
     }
   end
 

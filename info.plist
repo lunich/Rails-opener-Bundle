@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Rails opener</string>
+	<string>Ruby on Rails Navigation</string>
 	<key>ordering</key>
 	<array>
 		<string>019B8EA1-0F75-42EC-935B-D20DC0A3A091</string>
@@ -15,6 +15,7 @@
 		<string>BFAAD369-1D60-4E23-BABF-21CC9C31CE37</string>
 		<string>0A4318AA-B429-4D89-BCA5-FD72F197EF53</string>
 		<string>220A7376-9D2C-43E9-970B-76B272784033</string>
+		<string>C97D6724-5EF0-4EC1-AC5B-59A8574CAF7D</string>
 	</array>
 	<key>uuid</key>
 	<string>DFBBB5AE-7983-4D37-A492-CDB7D0E028D0</string>
